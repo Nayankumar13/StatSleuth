@@ -1,0 +1,62 @@
+{
+  "seed": 2026,
+  "N": 6000,
+  "error_rate": 0.4,
+  "parse_rate": 1.0,
+  "clean_results": {
+    "n": 3717,
+    "false_positive_rate": {
+      "engine_strict": 0.0,
+      "engine_incl_caveat": 0.0,
+      "naive_exact_match": 0.4350282485875706
+    }
+  },
+  "injected_all_recall": {
+    "p_typo": {
+      "n": 786,
+      "engine_strict": 0.9300254452926209,
+      "engine_incl_caveat": 0.9809160305343512,
+      "naive_exact_match": 0.9860050890585241
+    },
+    "stat_typo": {
+      "n": 861,
+      "engine_strict": 0.8490127758420442,
+      "engine_incl_caveat": 0.8571428571428571,
+      "naive_exact_match": 0.8571428571428571
+    },
+    "df_typo": {
+      "n": 636,
+      "engine_strict": 0.4276729559748428,
+      "engine_incl_caveat": 0.43238993710691825,
+      "naive_exact_match": 0.7075471698113207
+    }
+  },
+  "material_errors": {
+    "n": 1622,
+    "definition": "|corrupted p - true p| >= 0.002 after the injected change",
+    "engine_strict": 0.9605425400739828,
+    "engine_incl_caveat": 0.9821208384710234,
+    "naive_exact_match": 0.9993834771886559
+  },
+  "precision_any_injected_error": {
+    "engine_strict": 1.0,
+    "engine_incl_caveat": 1.0,
+    "naive_exact_match": 0.5483240223463687
+  },
+  "material_errors_that_flip_significance": {
+    "n": 263,
+    "engine_strict": 0.9885931558935361,
+    "engine_labelled_gross": 0.9847908745247148
+  },
+  "still_missed_material_errors": {
+    "n": 29,
+    "by_kind": {
+      "t": 1,
+      "F": 6,
+      "chi2": 0,
+      "r": 22,
+      "z": 0
+    }
+  },
+  "notes": "Synthetic benchmark. Honest results: p from the unrounded statistic, both rounded for printing (stat 2 d.p., p 3 d.p.). Corruptions chosen by us (p_typo includes a x0.5 factor, which coincides with a one-tailed p: the engine reports that as 'caveat', hence the two engine columns). Not a claim about real-paper error rates, and the 'naive_exact_match' column is our own simple baseline, NOT the statcheck package."
+}

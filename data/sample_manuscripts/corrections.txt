@@ -1,0 +1,7 @@
+Synthetic demo manuscript C (legitimate corrections that naive checkers flag)
+
+Method. Participants (N = 60) completed three repeated sessions. We applied a Greenhouse-Geisser correction because Mauchly's test indicated a violation of sphericity. Pairwise comparisons were Bonferroni-adjusted. The directional hypothesis was tested with a one-tailed test.
+
+Results. The session effect was significant after correction, F(2, 58) = 3.60, p = .059 (uncorrected degrees of freedom shown). Post-hoc, session 1 vs 2 was significant after Bonferroni adjustment, t(30) = 2.10, p = .13. The directional hypothesis was supported with a one-tailed test, t(30) = 2.10, p = .022.
+
+A separate result is reported without any such explanation: t(30) = 2.10, p = .022.

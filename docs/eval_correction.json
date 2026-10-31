@@ -1,0 +1,27 @@
+{
+  "n": 2000,
+  "groups": {
+    "legit correction, keyword in text": {
+      "n": 1311,
+      "naive_flags": 1.0,
+      "engine_ok_or_caveat": 0.9954233409610984,
+      "engine_minor_or_gross": 0.004576659038901602,
+      "engine_caveat": 0.9938977879481312
+    },
+    "legit correction, NO keyword in text": {
+      "n": 294,
+      "naive_flags": 1.0,
+      "engine_ok_or_caveat": 0.0,
+      "engine_minor_or_gross": 1.0,
+      "engine_caveat": 0.0
+    },
+    "impossible (p below uncorrected p), keyword in text": {
+      "n": 135,
+      "naive_flags": 1.0,
+      "engine_ok_or_caveat": 0.0,
+      "engine_minor_or_gross": 1.0,
+      "engine_caveat": 0.0
+    }
+  },
+  "notes": "Synthetic. 'legit correction' p-values come from epsilon-scaled df with epsilon drawn in (1/df1, .95). Without the keyword the engine (by design) does not assume a correction, so those are flagged: this is the intended trade-off, and the explanation tells the author to state the correction."
+}

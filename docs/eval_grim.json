@@ -1,0 +1,41 @@
+{
+  "grim_vs_exhaustive": {
+    "cases": 76428,
+    "mismatches": 0,
+    "n_range": "2-100",
+    "decimals": "1,2"
+  },
+  "grim_vs_pypi_grim_package": {
+    "cases": 20000,
+    "agree": 19766,
+    "ours_accepts_theirs_rejects_only_on_exact_ties": 234,
+    "unexplained_disagreements": 0
+  },
+  "grimmer_soundness_real_integer_data": {
+    "datasets": 60000,
+    "false_alarms": 0
+  },
+  "grimmer_power_vs_exhaustive": {
+    "note": "Unreachable = no integer data on the stated scale gives this (mean, SD) at 2 d.p. The checker does not know the scale bounds, so some of these pairs are reachable with integers outside the scale and cannot be flagged; share_flagged is therefore a conservative power estimate.",
+    "n=5, scale 1-5": {
+      "reachable_pairs": 102,
+      "unreachable_pairs_tested": 6219,
+      "share_flagged": 0.9548158867985207
+    },
+    "n=6, scale 1-5": {
+      "reachable_pairs": 151,
+      "unreachable_pairs_tested": 7374,
+      "share_flagged": 0.9441280173582859
+    },
+    "n=8, scale 1-5": {
+      "reachable_pairs": 279,
+      "unreachable_pairs_tested": 9654,
+      "share_flagged": 0.9215869069815621
+    },
+    "n=6, scale 1-7": {
+      "reachable_pairs": 474,
+      "unreachable_pairs_tested": 10670,
+      "share_flagged": 0.9656982193064667
+    }
+  }
+}

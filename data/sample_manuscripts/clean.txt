@@ -1,0 +1,9 @@
+Synthetic demo manuscript A (consistent reporting)
+
+Method. Sixty students (N = 60) were randomly assigned to a spaced-practice group (n = 30) or a massed-practice group (n = 30). A further 28 students (n = 28) completed a delayed follow-up in each arm.
+
+Results. Self-rated confidence on a 7-point scale was higher in the spaced group (M = 4.43, SD = 1.19) than in the massed group (M = 4.33, SD = 1.27, n = 30). Confidence at follow-up (n = 28 per arm) was M = 4.96, SD = 1.04 for the spaced group and M = 4.61, SD = 1.47 for the massed group.
+
+Exam scores differed between groups, t(58) = 2.84, p = .006, and the effect was present in the follow-up sample, t(54) = 3.12, p = .003. A three-level condition effect was significant, F(2, 57) = 4.71, p = .013. Passing the exam did not depend on gender, χ²(2, N = 60) = 7.31, p = .026. Study time correlated with the score, r(58) = .41, p = .001, but not with confidence, r(58) = .19, p = .146.
+
+Of the spaced group, 14/30 (46.7%) passed with distinction, compared with 9/30 (30%) of the massed group. The odds of distinction were higher after spaced practice, OR = 2.10, 95% CI [1.20, 3.70], p = .008.

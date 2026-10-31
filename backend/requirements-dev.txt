@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8
+httpx>=0.27
+grim>=0.1.10        # independent GRIM implementation, used only to cross-check ours in tests/eval
+playwright>=1.44    # only for eval/ui_smoke.py

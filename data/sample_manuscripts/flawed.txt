@@ -1,0 +1,10 @@
+Synthetic demo manuscript B (seeded errors)
+
+Method. Sixty participants (N = 60) were assigned to a treatment group (n = 30) or a control group (n = 30).
+
+Results. Anxiety scores (1-5 scale) were lower after treatment, M = 3.48, SD = 0.90 (n = 30), than in controls, M = 3.50, SD = 1.00 (n = 30). The groups differed on the primary outcome, t(58) = 1.40, p = .012. A secondary outcome also differed, t(98) = 2.20, p = .030.
+
+An exploratory F test was significant, F(2, 57) = 2.10, p = .031. Group membership was related to attendance, χ²(1, N = 60) = 5.02, p = .025.
+
+Adherence was higher in the treatment group, 14/30 (43%) vs 9/30 (30%). Treatment raised the odds of response, OR = 1.80, 95% CI [0.95, 3.41], p = .03.
+
